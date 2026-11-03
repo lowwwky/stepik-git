@@ -2,4 +2,6 @@
 name = "stepik-git"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "selenium>=4.52.0",
+]
