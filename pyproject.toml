@@ -5,3 +5,7 @@ requires-python = ">=3.14"
 dependencies = [
     "selenium>=4.52.0",
 ]
+[tool.pytest.ini_options]
+markers = [
+    "add_to_basket: add to basket tests",
+]
