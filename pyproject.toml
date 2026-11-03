@@ -7,5 +7,8 @@ dependencies = [
 ]
 [tool.pytest.ini_options]
 markers = [
+    "need_review: tests for the final review",
     "add_to_basket: add to basket tests",
+    "basket: tests for the basket",
+    "login_guest: guest login tests",
 ]
