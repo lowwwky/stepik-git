@@ -19,8 +19,8 @@ def test_guest_can_add_product_to_basket(browser, link):
     page.add_product_to_basket()
     page.solve_quiz_and_get_code()
 
-   page.should_be_product_added_message(product_name)
-   page.should_be_basket_total_message(product_price)
+    page.should_be_product_added_message(product_name)
+    page.should_be_basket_total_message(product_price)
 
 LINK = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
 
